@@ -1,40 +1,27 @@
-<table border="1">
-    <tr>
-        <td colspan="2">
-            <app-header></app-header>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <app-work-experience></app-work-experience>
-        </td>
+<!DOCTYPE html>
+<html lang="es">
 
-        <td>
-            <app-education></app-education>
-        </td>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.component.css"> <!-- Asegúrate de usar la ruta correcta -->
+    <title>Mi CV</title>
+</head>
 
-        <td>
-            <app-languages></app-languages>
-        </td>
+<body>
+    <app-header></app-header>
 
-    </tr>
+    <div class="row-container">
+        <app-work-experience></app-work-experience>
+        <app-interest></app-interest>
+        <app-skills></app-skills>
+    </div>
 
-    <tr>
+    <div class="row-container">
+        <app-languages></app-languages>
+        <app-education></app-education>
+        <app-achievements></app-achievements>
+    </div>
+</body>
 
-        <td>
-            <app-skills></app-skills>
-        </td>
-
-        <td>
-            <app-interest></app-interest>
-        </td>
-
-        <td>
-            <app-achievements></app-achievements>
-        </td>
-
-    </tr>
-
-
-
-</table>
+</html>
