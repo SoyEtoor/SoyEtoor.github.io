@@ -1,0 +1,61 @@
+body {
+    background-color: #f2f2f2; /* Fondo gris claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    width: 100%; /* Ancho completo */
+    max-width: 800px; /* Ancho máximo */
+    margin: 20px left; /* Centrado en la página */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    color: #4c3c8a; /* Color del título */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .experience-table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Colapsar los bordes de la tabla */
+  }
+  
+  ul {
+    list-style-type: disc; /* Usa "disc" para puntos o "asterisk" para asteriscos */
+    padding-left: 20px; /* Agrega un margen para separar los puntos del texto */
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px; /* Espacio entre elementos */
+  }
+  
+  .achievement {
+    color: #333;
+    font-size: 14px;
+    padding-left: 5px; /* Ajuste del espacio entre el punto y el texto */
+  }
+  
+  
+  td {
+    padding: 5px 10px;
+    vertical-align: top;
+  }
+  
+  .date, .location, .position, .company, .achievements-title {
+    font-weight: bold;
+    color: #4c3c8a;
+  }
+
+  .achievements-title {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
