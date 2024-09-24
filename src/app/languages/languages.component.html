@@ -7,13 +7,9 @@
 <body>
     <div class="container">
         <h3>Idiomas</h3>
-        <table border="0" class="education-table">
-            <tbody>
-                <tr *ngFor="let lan of language">
-                    <td class="language">{{ lan.lenguaje }}</td>
-                </tr>
-            </tbody>
-        </table>
+        <ul>
+            <li *ngFor="let lan of language">{{ lan.lenguaje }}</li>
+        </ul>
     </div>
 </body>
 </html>
