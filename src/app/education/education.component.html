@@ -10,15 +10,13 @@
 <body>
     <div class="container">
         <h3>Educación</h3>
-        <table border="0" class="education-table">
-            <tbody>
-                <tr *ngFor="let edu of education">
-                    <td class="date">{{ edu.fecha }}</td>
-                    <td class="faculty">{{ edu.faculty }}</td>
-                    <td class="university">{{ edu.university }}</td>
-                </tr>
-            </tbody>
-        </table>
+        <ul class="education-list">
+            <li *ngFor="let edu of education">
+                <span class="date">{{ edu.fecha }}</span> - 
+                <span class="faculty">{{ edu.faculty }}</span>, 
+                <span class="university">{{ edu.university }}</span>
+            </li>
+        </ul>
     </div>
 </body>
 
