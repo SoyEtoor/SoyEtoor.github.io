@@ -1,7 +1,25 @@
-<app-header></app-header>
-<app-work-experience></app-work-experience>
-<app-education></app-education>
-<app-skills></app-skills>
-<app-languages></app-languages>
-<app-interest></app-interest>
-<app-achievements></app-achievements>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.component.css"> <!-- Asegúrate de usar la ruta correcta -->
+    <title>Mi CV</title>
+</head>
+
+<body>
+    <app-header></app-header>
+
+    <div class="row-container">
+        <app-work-experience></app-work-experience>
+        <app-education></app-education>
+        <app-skills></app-skills>
+    </div>
+
+    <app-languages></app-languages>
+    <app-interest></app-interest>
+    <app-achievements></app-achievements>
+</body>
+
+</html>

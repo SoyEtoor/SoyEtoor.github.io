@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<div class="container">
-    <h3>Educación</h3>
-    <table border="0" class="education-table">
-        <ul *ngFor="let edu of education">
-            <li>
-                <tr>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Educación</h3>
+        <table border="0" class="education-table">
+            <tbody>
+                <tr *ngFor="let edu of education">
                     <td class="date">{{ edu.fecha }}</td>
                     <td class="faculty">{{ edu.faculty }}</td>
                     <td class="university">{{ edu.university }}</td>
                 </tr>
-            </li>
-        </ul>
-    </table>
-</div>
+            </tbody>
+        </table>
+    </div>
+</body>
 
 </html>

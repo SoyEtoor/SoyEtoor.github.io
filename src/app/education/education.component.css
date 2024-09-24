@@ -1,47 +1,47 @@
 body {
-    background-color: #f2f2f2; /* Fondo gris claro */
-    font-family: Arial, sans-serif; /* Tipo de letra */
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    background-color: #ffffff; /* Fondo blanco */
-    width: 100%; /* Ancho completo */
-    max-width: 800px; /* Ancho máximo */
-    margin: 20px left; /* Centrado en la página */
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    box-shadow: 0 4px 6px #4c3c8a;
     box-sizing: border-box;
-    font-family: Arial, sans-serif; /* Asegurando el mismo tipo de letra */
+    font-family: Arial, sans-serif;
 }
 
 h3 {
-    color: #4c3c8a; /* Color del título */
+    color: #4c3c8a;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
 .education-table {
-    width: 100%; /* Ancho completo */
-    border-collapse: collapse; /* Colapsar los bordes de la tabla */
+    width: 100%;
+    border-collapse: collapse;
 }
 
 ul {
-    list-style-type: disc; /* Sin estilo de lista */
-    padding-left: 0; /* Sin margen izquierdo */
+    list-style-type: disc;
+    padding-left: 0;
     margin: 0;
 }
 
 li {
-    margin-bottom: 10px; /* Espacio entre elementos */
+    margin-bottom: 10px;
 }
 
 .date, .faculty, .university {
     padding: 5px 10px;
     vertical-align: top;
     font-weight: bold;
-    color: #4c3c8a; /* Mismo color que el de Experiencia Laboral */
-    font-family: Arial, sans-serif; /* Asegurando el mismo tipo de letra */
+    color: #4c3c8a;
+    font-family: Arial, sans-serif;
 }
