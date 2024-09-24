@@ -1,11 +1,23 @@
-<h3>Interest</h3>
-
-<table border="0">
-    <ul *ngFor="let int of interest">
-        <li>
-            <tr>
-                <td>{{ int.interes}}</td>
-            </tr>
-        </li>
-    </ul>
-</table>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="interest.component.css"> <!-- Asegúrate de incluir tu archivo CSS -->
+    <title>Intereses</title>
+</head>
+<body>
+    <div class="interest-container">
+        <h3>Intereses</h3>
+        <ul *ngFor="let int of interest">
+            <li>
+                <table border="0">
+                    <tr>
+                        <td>{{ int.interes }}</td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

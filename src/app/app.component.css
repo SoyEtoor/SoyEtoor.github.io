@@ -1,0 +1,24 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+app-work-experience,
+app-education,
+app-skills {
+    background-color: #f2f2f2;
+    flex: 1;
+    min-width: 250px;
+    max-width: 30%;
+    padding: 20px;
+}

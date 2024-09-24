@@ -1,11 +1,15 @@
-<h3>Languages</h3>
-
-<table border="0">
-    <ul *ngFor="let lan of language">
-        <li>
-            <tr>
-                <td>{{ lan.lenguaje}}</td>
-            </tr>
-        </li>
-    </ul>
-</table>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="languages.component.css">
+    <title>Idiomas</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Idiomas</h3>
+        <ul>
+            <li *ngFor="let lan of language">{{ lan.lenguaje }}</li>
+        </ul>
+    </div>
+</body>
+</html>
