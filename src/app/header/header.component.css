@@ -1,5 +1,5 @@
 body {
-    background-color: #d3fffb;
+    background-color: #f2f2f2;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     align-items: center;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(214, 255, 248);
+    background-color: #f2f2f2;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
     box-sizing: border-box;
@@ -24,12 +24,12 @@ body {
 }
 
 .name {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .carrer {
-    font-size: 22px;
+    font-size: 24px;
     margin-top: 5px;
 }
 
@@ -46,7 +46,7 @@ ul {
 }
 
 ul li {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
