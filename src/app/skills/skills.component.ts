@@ -8,6 +8,7 @@ import { CommonModule } from "@angular/common";
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'
 })
+
 export class SkillsComponent {
   skills: Array<any> = [];
 
@@ -48,3 +49,4 @@ export class SkillsComponent {
     console.log(this.skills);
   }
 }
+
