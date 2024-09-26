@@ -1,11 +1,4 @@
-body {
-    background-color: #f2f2f2;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
+.achievements-container {
     background-color: #ffffff;
     width: 100%;
     max-width: 800px;
@@ -22,19 +15,20 @@ h3 {
     margin-bottom: 20px;
 }
 
-.education-list {
+ul {
     list-style-type: disc;
     padding-left: 20px;
     margin: 0;
+    color: #4c3c8a; 
 }
 
 li {
-    margin-bottom: 10px;
-    color: #4c3c8a;
-    font-family: Arial, sans-serif;
+    margin-bottom: 10px; 
+    color: #4c3c8a; /* Asegura que el texto de la lista tenga el color deseado */
 }
 
-.date, .faculty, .university {
-    font-weight: normal;
-    color: #4c3c8a;
+td {
+    padding: 5px 10px; 
+    vertical-align: top; 
+    color: #4c3c8a; /* Asegura que el texto de las celdas tenga el color deseado */
 }
