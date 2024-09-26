@@ -46,6 +46,7 @@ export class SkillsComponent {
     this.skills.push(skills4);
     this.skills.push(skills5);
     this.skills.push(skills6);
+
     console.log(this.skills);
   }
 }

@@ -8,6 +8,7 @@ import { SkillsComponent } from "./skills/skills.component";
 import { InterestComponent } from "./interest/interest.component";
 import { AchievementsComponent } from './achievements/achievements.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
