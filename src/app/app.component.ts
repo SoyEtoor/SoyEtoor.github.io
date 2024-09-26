@@ -6,7 +6,7 @@ import { EducationComponent } from "./education/education.component";
 import { LanguagesComponent } from "./languages/languages.component";
 import { SkillsComponent } from "./skills/skills.component";
 import { InterestComponent } from "./interest/interest.component";
-import { AchievementsC
+import { AchievementsComponent } from './achievements/achievements.component';
 
 @Component({
   selector: 'app-root',
