@@ -1,36 +1,55 @@
-<h3>Experiencia Laboral</h3>
 
-<table border="0">
+<!DOCTYPE html>
+<html lang="es">
 
-    <ul *ngFor="let work of workExperience">
-        <li>
-            <tr>
-                <td> {{work.fecha}} </td>
-                <td> {{work.ubicacion}} </td>
-            </tr>
+<head>
+    <link rel="stylesheet" href="work-experience.component.css">
+</head>
 
-            <tr>
-                <td> {{work.puesto}} </td>
-                <td></td>
-            </tr>
-
-            <tr>
-                <td> {{work.empresa}} </td>
-                <td></td>
-            </tr>
-
-            <tr>
-                <td> logros </td>
-            </tr>
-
-            <ul *ngFor="let logro of work.logros">
+<body>
+    <div class="container">
+        <h3>Experiencia Laboral</h3>
+        <table border="0" class="experience-table">
+            <!-- La lista de experiencia laboral -->
+            <ul>
                 <li>
+                    <tr>
+                        <td class="date">2019 - 2022</td>
+                        <td class="location">Ixtac, Ver.</td>
+                    </tr>
 
                     <tr>
-                        <td>{{logro.descripcion}}</td>
+                        <td class="position">CEO</td>
+                        <td></td>
                     </tr>
+
+                    <tr>
+                        <td class="company">Waves Lab</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="achievements-title">Logros</td>
+                    </tr>
+
+                    <!-- Lista de logros -->
+                    <ul>
+                        <li>
+                            <tr>
+                                <td class="achievement">Construcción de un ERP en la nube de Google</td>
+                            </tr>
+                        </li>
+                        <li>
+                            <tr>
+                                <td class="achievement">Creación de un clúster de Hadoop y Spark</td>
+                            </tr>
+                        </li>
+                    </ul>
                 </li>
             </ul>
-        </li>
-    </ul>
-</table>
+        </table>
+    </div>
+</body>
+
+</html>
+

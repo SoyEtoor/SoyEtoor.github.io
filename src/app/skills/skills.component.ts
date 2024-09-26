@@ -15,36 +15,38 @@ export class SkillsComponent {
   constructor() { }
 
   ngOnInit(): void {
-    let skill1 = {
-      skill: "Persistence",
+    let skills1 = {
+      skill: "Leadership"
     };
 
-    let skill2 = {
-      skill: "Leadership",
+    let skills2 = {
+      skill: "Communication"
     };
 
-    let skill3 = {
-      skill: "Communication",
+    let skills3 = {
+      skill: "Problem-Solving"
     };
 
-    let skill4 = {
-      skill: "Problem-Solving",
+    let skills4 = {
+      skill: "Web Desing"
     };
 
-    let skill5 = {
-      skill: "Database Design",
+    let skills5 = {
+      skill: "Database management"
     };
 
-    let skill6 = {
-      skill: "Web Development",
+    let skills6 = {
+      skill: "Data analysis"
     };
 
-    this.skills.push(skill1);
-    this.skills.push(skill2);
-    this.skills.push(skill3);
-    this.skills.push(skill4);
-    this.skills.push(skill5);
-    this.skills.push(skill6);
+
+    this.skills.push(skills1);
+    this.skills.push(skills2);
+    this.skills.push(skills3);
+    this.skills.push(skills4);
+    this.skills.push(skills5);
+    this.skills.push(skills6);
+
     console.log(this.skills);
   }
 }
