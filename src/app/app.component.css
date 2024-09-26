@@ -1,0 +1,28 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+app-work-experience,
+app-education,
+app-skills,
+app-languages,
+app-interest,
+app-achievements {
+    flex: 0 0 calc(33.33% - 20px); /* Fijar el ancho a 1/3 del contenedor padre */
+}
+
+.row-container > * {
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina padding por defecto, si aplica */
+}

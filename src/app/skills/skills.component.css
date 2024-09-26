@@ -1,0 +1,62 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto; /* Cambiado 'left' por 'auto' para centrar el contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #4c3c8a;
+    box-sizing: border-box;
+}
+
+h3 {
+    color: #4c3c8a;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #4c3c8a;
+}
+
+td {
+    padding: 5px 10px;
+    vertical-align: top;
+    color: #4c3c8a;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.date,
+.location,
+.position,
+.company,
+.achievements-title {
+    font-weight: bold;
+    color: #4c3c8a;
+}
+
+.achievements-title {
+    margin-top: 10px;
+    font-size: 18px;
+}
